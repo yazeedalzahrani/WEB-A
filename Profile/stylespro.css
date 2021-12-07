@@ -9,8 +9,8 @@ body{
 
 h1{
     
-    font-size: 60px;
-    text-align: left;
+  font-size: 60px;
+  text-align: center;
 }
 
 h4{
@@ -86,4 +86,87 @@ button{
   }
  
 
+  .oneimg{
+  display: inline-block;
+    margin: 0 10%;
+    width: 100%;
+  }
+
+  .oneimg img{
+    float: left;
+  }
+
+  .twoimg{
+    display: inline-block;
+    margin: 5 0%;
+    width: 100%;
+    text-align: right;
+
   
+  }
+
+  .twoimg img{
+    float: right;
+  }
+  .threeimg{
+    display: inline-block;
+    margin: 0 10%;
+    width: 100%;
+
+  }
+  .threeimg img{
+    float: left;
+
+  }
+  .fimg{
+    display: inline-block;
+    margin: 5 0%;
+    width: 100%;
+    text-align: right;
+
+  }
+  .fimg img{
+
+    float: right;
+  }
+  .favimg{
+
+    display: inline-block;
+    margin: 0 10%;
+    width: 100%;
+  }
+  .favimg img{
+    float: left;
+
+  }
+
+  .siimg{
+    display: inline-block;
+    margin: 5 0%;
+    width: 100%;
+    text-align: right;
+  }
+  .siimg img{
+
+    float: right;
+  }
+
+  .savimg{
+    display: inline-block;
+    margin: 0 10%;
+    width: 100%;
+  }
+  .savimg img{
+    float: left;
+
+  }
+
+  .ateimg{
+    display: inline-block;
+    margin: 5 0%;
+    width: 100%;
+    text-align: right;
+  }
+  .ateimg img{
+    float: right;
+  }
