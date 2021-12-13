@@ -20,8 +20,7 @@ h1{
   top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
-
-  
+  text-shadow:rgba(16, 139, 11, 0.815) 0 12px 15px;
   color:white;
 }
 
@@ -30,7 +29,7 @@ h1{
     font-size: 60px;
     text-align: center;
     position:fixed;
-  
+    
 bottom: 20%;
 transform: translate(-50%, -50%);
 color:white;
