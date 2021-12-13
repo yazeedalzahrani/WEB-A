@@ -82,6 +82,7 @@ body {
   height: 50px;
   font-size: 70%;
   display: inline-block;
+  color: rgba(16, 139, 11, 0.815);
   
   
   }
@@ -98,7 +99,7 @@ body {
 
 
 /* //-- core typography and style -- */
- h1 { font-size: 48px; text-transform: uppercase; letter-spacing: 3px; margin: 50%; }
+ h1 { font-size: 48px; text-transform: uppercase; letter-spacing: 3px; margin: 30%; text-shadow:rgba(16, 139, 11, 0.815) 0 12px 15px; }
 h2 { font-size: 152% }
 h3, h4 { font-size: 122%; }
 h1, h2, h3, h4 { color: rgb(255, 255, 255); }
