@@ -3,7 +3,7 @@ body {
     text-align: center;
   background-color:#0E0E0E;
   font-family: semplicitapro,sans-serif;
-  font-weight: 700;
+  font-weight: 78;
   font-style: normal;
    
      }
@@ -230,29 +230,27 @@ body {
       left: 0%;
     }
   }
-  .link:hover{
+  .link , .linktwo ,.tthe,.fv , .top{
 
     background-color: black;
     padding: 1%;
     border-radius: 10px;
+    text-shadow:rgba(7, 17, 6, 0.815) 0 12px 15px;
   }
   
-  .linktwo:hover{
+  .link:hover , .linktwo:hover ,.tthe:hover,.fv:hover , .top:hover{
 
-    background-color: black;
-    padding: 1%;
-    border-radius: 10px;
-  }
-  .linkthe:hover{
 
-    background-color: black;
-    padding: 1%;
-    border-radius: 10px;
-  }
-  .linkfor:hover{
-
-    background-color: black;
-    padding: 1%;
-    border-radius: 10px;
+  color: white;
   }
   
+  
+  h1 {
+    text-shadow:rgba(7, 17, 6, 0.815) 0 12px 15px;
+    margin-bottom: 5%;
+    font-size: 100%;
+  }
+  h2,h4,h5 , h6 {
+    text-shadow:rgba(7, 17, 6, 0.815) 0 12px 15px;
+    font-size: 120%;
+  }
