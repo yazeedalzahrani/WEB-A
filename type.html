@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="type.css">
+   
+    <script src="type.js"></script>
+    <title>TYPOGRAPHY</title>
+     
+</head>
+
+<body>
+  <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="topnav" id="myTopnav">
+<h3>.</h3>
+<a href="index.html">Home</a>
+  <a href="Contact/Contact.html">Contact</a>
+  <a href="About.html/about.html">About</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+</body>
+
+
+
+
+  </head>
+  <body>
+  <style> #imgtext {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+
+color: rgb(252, 252, 252);
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.849);
+  }
+  </style>
+  <div style="text-align:center">
+    <h2> TEXT Image Gallery</h2>
+    <p>dis TEXT </p>
+  </div>
+  
+  <!-- The four columns -->
+  <div class="row">
+  </div> <div class="column">
+    
+    <img src="ty1.png" alt="Nature" style="width:100%" onclick="myFunction(this);" >
+  TEXT </div> <div class="column">
+    
+      <img src="ty1.png" alt="Nature" style="width:100%" onclick="myFunction(this);" >
+      TEXT </div> <div class="column">
+
+        <img src="ty1.png" alt="Nature" style="width:100%" onclick="myFunction(this);" >
+        TEXT </div> <div class="column">
+          <img src="ty1.png" alt="Nature" style="width:100%" onclick="myFunction(this);" >
+          TEXT </div> <div class="column">
+            <img src="ty1.png" alt="Nature" style="width:100%" onclick="myFunction(this);" >
+            TEXT </div> <div class="column">
+              <img src="ty1.png" alt="Nature" style="width:100%" onclick="myFunction(this);" >
+              TEXT </div> <div class="column">
+                <img src="ty1.png" alt="Nature" style="width:100%" onclick="myFunction(this);" >
+                TEXT </div> <div class="column">
+                  <img src="ty1.png" alt="Nature" style="width:100%" onclick="myFunction(this);" >
+                  TEXT </div> <div class="column">
+  </div>
+  
+  <div class="container">
+    <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+    <img id="expandedImg" style="width:200cm 200cm">
+    <div id="imgtext"></div>
+  </div>
+  
+  <script>
+  function myFunction(imgs) {
+    var expandImg = document.getElementById("expandedImg");
+    var imgText = document.getElementById("imgtext");
+    expandImg.src = imgs.src;
+    imgText.innerHTML = imgs.alt;
+    expandImg.parentElement.style.display = "inline-block";
+  }
+  </script>
+
+
+
+  </body>
+
+</html>
