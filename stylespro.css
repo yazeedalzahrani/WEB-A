@@ -168,9 +168,8 @@ transform: translate(-50%, -50%);
 p{
 
   text-shadow:rgba(16, 139, 11, 0.815) 0 12px 15px;
-  text-align: center;
-  position: absolute;
+
+  position: inherit;
 top: 29%;
 left: 50%;
-transform: translate(-50%, -50%);
 }
