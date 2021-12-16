@@ -153,9 +153,12 @@ body {
   
   /* The expanding image container */
   .container {
-    position: relative;
+    position: absolute;
+    top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
     display: none;
-    margin-left: 44%;
+    
   }
   
   /* Expanding image text */
@@ -171,4 +174,14 @@ body {
     cursor: pointer;
   }
 
+  p{
+    margin-left: 30%;
+    margin-right: 30%;
+  }
+  h2{
   
+    margin-top: 13%;
+    font-size: 50px;
+    text-shadow:rgba(16, 139, 11, 0.815) 0 12px 15px;
+  
+  }

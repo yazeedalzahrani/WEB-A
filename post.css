@@ -91,10 +91,7 @@ body {
   
   }
 
-  h2{
-
-    margin-top: 13%;
-  }
+  
   .column img {
     opacity: 0.8; 
 
@@ -115,5 +112,16 @@ h1:hover{
    color:white;
 
  
+
+}
+p{
+  margin-left: 30%;
+  margin-right: 30%;
+}
+h2{
+
+  margin-top: 13%;
+  font-size: 50px;
+  text-shadow:rgba(16, 139, 11, 0.815) 0 12px 15px;
 
 }
