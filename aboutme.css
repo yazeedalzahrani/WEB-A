@@ -85,19 +85,43 @@ body {
   margin-top:15% top 15%;
   margin-left: 15%;
     float: left;
-    border-radius: 8px;
-}
-
-h6{
-
-   
-    text-align: center;
-    position:absolute;
+display: inline;
+    opacity: 1;
+    opacity: 0,6;
+    box-shadow: 0 4px 8px 0 rgb(0, 255, 21), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 1% ;
+    border-color: lawngreen;
   
-   
+}
 
-transform: translate(-50%, -50%);
-top: 60%;
-left: 50%;
+h4{
+ font-size: 60px;
 
 }
+h1{
+    font-size: 30px; 
+    margin: 3%
+}
+p{
+    font-size: 30px;  
+}
+
+.git{
+
+    opacity: 0.8; 
+
+
+      transition: 0.3s;
+  
+ 
+  
+    
+    
+}
+.git:hover{
+    opacity: 1;
+    opacity: 0,6;
+    box-shadow: 0 4px 8px 0 rgb(0, 255, 21),;
+}
+
+
