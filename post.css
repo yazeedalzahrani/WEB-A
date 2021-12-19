@@ -80,31 +80,14 @@ body {
   left: 0;
   height: 50px;
   }
-  footer{
-  width: 100%;
-  bottom: 0;
-  position: fixed;
-  display: block;
-  left: 0;
-  height: 50px;
-  font-size: 70%;
   
-  }
 
   
-  .column img {
-    opacity: 0.8; 
-
-    transition: 0.3s;
-    border-radius: 8px;
-
-  }
-  
-  .column img:hover {
-    opacity: 1;
-    opacity: 0,6;
-    box-shadow: 0 4px 8px 0 rgb(0, 255, 21), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    
+  #footer {
+margin-top: 1%;
+    width: 100%;
+    bottom: 1%;
+             /* Footer height */
   }
 
 h1:hover{
@@ -115,8 +98,8 @@ h1:hover{
 
 }
 p{
-  margin-left: 30%;
-  margin-right: 30%;
+ 
+
 }
 h2{
 
@@ -124,4 +107,25 @@ h2{
   font-size: 50px;
   text-shadow:rgba(16, 139, 11, 0.815) 0 12px 15px;
 
+
+
+}
+
+.w3-row-padding img {
+  opacity: 0.8; 
+display: inline;
+  transition: 0.3s;
+  border-radius: 8px;
+margin: 10;
+
+align-items: center;
+
+
+}
+
+.w3-row-padding img:hover{
+
+  opacity: 1;
+  opacity: 0,6;
+  box-shadow: 0 4px 8px 0 rgb(0, 255, 21), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }

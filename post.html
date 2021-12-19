@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
     <link rel="stylesheet" href="post.css">
    
     <script src="post.js"></script>
@@ -61,19 +61,34 @@
 <h2>CRAP </h2>
 <p>Can you recognise a good design and a bad design? By understanding the design principle (CRAP), we can During the class, we learned how to recognise a bad and a good design through the four principals (CONTRAST, ALIGNMENT, REPITITION, PROXIMITY). It was simple to understand, and I managed to start my project. I started with three different designs as shown:</p>
 
-<div class="row">
-  <div class="column">
-    <img src="22.png"alt="22.png" style="width:50% ">
-    <h1>IEAHSD TEXT </h1>
+
+<div class="w3-row-padding">
+  <div class="w3-container w3-third">
+    <img src="22.png" style="width:20%;cursor:pointer" 
+    onclick="onClick(this)" class="w3-hover-opacity">
   </div>
-  <div class="column">
-    <img src="v-1.png" alt="2" style="width:80%">
-    2
+  <div class="w3-container w3-third">
+    <img src="v-1.png" style="width:20%;cursor:pointer" 
+    onclick="onClick(this)" class="w3-hover-opacity">
   </div>
-  <div class="column">
-    <img src="33.png" alt="3"  style="width:50%">
-    1
+  <div class="w3-container w3-third">
+    <img src="33.png" style="width:20%;cursor:pointer" 
+    onclick="onClick(this)" class="w3-hover-opacity">
   </div>
+</div>
+
+<div id="modal01" class="w3-modal" onclick="this.style.display='none'">
+  <div class="w3-modal-content w3-animate-zoom">
+    <img id="img01" style="width:50%">
+  </div>
+</div>
+
+<script>
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+}
+</script>
   
 </div>
 
@@ -84,10 +99,8 @@
 
 
 
+<footer id="footer">© 2021 YAZEED ALZAHRANI. All Rights Reserved.</footer>
 
-<body>
-    <footer>
-     <p> © 2021 YAZEED ALZAHRANI. All Rights Reserved.</p>
-    </footer>
-  </body>
+ 
+
   
