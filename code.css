@@ -80,15 +80,17 @@ body {
   left: 0;
   height: 50px;
   }
-  footer{
-    width: 100%;
-  bottom: 0;
-  display: inline-flex;
-  left: 0;
-  height: 50px;
-  font-size: 70%;
+  #footer {
+    display: inline;
+    position: absolute;
+  top: 120%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 54%;
+  color: rgba(16, 139, 11, 0.815);
   
-  }
+    
+      }
 
 
   /*h*/

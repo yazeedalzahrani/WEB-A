@@ -154,7 +154,8 @@ body {
   /* The expanding image container */
   .container {
     position: absolute;
-    top: 40%;
+    margin-top: 30%;
+    top: 130%;
   left: 50%;
   transform: translate(-50%, -50%);
     display: none;
