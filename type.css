@@ -48,7 +48,9 @@ body {
   }
   
   /* Hide the link that should open and close the topnav on small screens */
- 
+  .topnav .icon {
+    display: none;
+  }
   @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {

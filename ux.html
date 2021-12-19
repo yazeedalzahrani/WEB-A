@@ -20,17 +20,50 @@
 <div class="topnav" id="myTopnav">
 <h3>.</h3>
 <a href="index.html">Home</a>
-  <a href="Contact/Contact.html">Contact</a>
-  <a href="About.html/about.html">About</a>
+  <a href="Contact.html">Contact</a>
+  <a href="about.html">About</a>
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
     <i class="fa fa-bars"></i>
   </a>
+  <h1>User experience (UX) </h1>
+<h2> The User experience task (UX) focuses on having a deep understanding of users, what they need, what they value, their abilities, and their limitations. It also considers the website design goals and what you want to achieve. I am building my own strategy and scope using simple flowcharts and wireframe strategy design.</h2>
 </div>
+<div class="w3-row-padding">
+  <div class="w3-container w1-third">
+    Website Wireframing101
+    <img src="a1.png" style="width:20%;cursor:pointer" 
+    onclick="onClick(this)" class="w3-hover-opacity">
+  </div>
+  <div class="w3-container w2-third">
+    <img src="a2.png" style="width:20%;cursor:pointer" 
+    onclick="onClick(this)" class="w3-hover-opacity">
+    Website Wireframing102
+  </div>
+  <div class="w3-container w3-third">
+    Flowchart101
+    <img src="a3.png" alt="ksdwg" style="width:20%;cursor:pointer" 
+    onclick="onClick(this)" class="w3-hover-opacity">
+  </div>
+</div>
+
+<div id="modal01" class="w3-modal" onclick="this.style.display='none'">
+  <div class="w3-modal-content w3-animate-zoom">
+    <img id="img01" style="width:50%">
+  </div>
+</div>
+
+<script>
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block " ;
+}
+</script>
+  
+
 </body>
 <div>
 
-  <h1>User experience (UX) </h1>
-<h2> TThe User experience task (UX) focuses on having a deep understanding of users, what they need, what they value, their abilities, and their limitations. It also considers the website design goals and what you want to achieve. I am building my own strategy and scope using simple flowcharts and wireframe strategy design.</h2>
+  
 </div>
 
 
@@ -41,10 +74,3 @@
 
 
 
-
-
-<body>
-  <footer>
-   <p> © 2021 YAZEED ALZAHRANI. All Rights Reserved.</p>
-  </footer>
-</body>
