@@ -2,8 +2,8 @@
    body {
   
     text-align: center;
-background-color:#000000;
-font-family: semplicitapro,sans-serif;
+    background-color:#0E0E0E;
+font-family: sans-serif;
 overflow-y: hidden; /* Hide vertical scrollbar */
 overflow-x: hidden; 
 font-style: normal;
@@ -121,3 +121,24 @@ color: rgba(16, 139, 11, 0.815);
  
 
 /* Add some content at the bottom of the video/page */
+.git{
+
+  opacity: 0.8; 
+
+
+float: right;
+margin: 0 1%;
+    transition: 0.3s;
+
+
+
+  
+  
+}
+.git:hover{
+  opacity: 1;
+  opacity: 0,6;
+  box-shadow: 0 4px 8px 0 rgb(0, 255, 21),;
+}
+
+

@@ -2,8 +2,8 @@ body {
   
     text-align: center;
   background-color:#0E0E0E;
-  font-family: semplicitapro,sans-serif;
-  font-weight: 700;
+  font-family: sans-serif;
+
   font-style: normal;
   
      }
@@ -121,7 +121,9 @@ p{
 .git:hover{
     opacity: 1;
     opacity: 0,6;
-    box-shadow: 0 4px 8px 0 rgb(0, 255, 21),;
+    text-shadow: 0 4px 8px 0 rgb(0, 255, 21),;
+  
+
 }
 
 

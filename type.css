@@ -3,8 +3,9 @@ body {
     text-align: center;
   background-color:#0E0E0E;
   font-family: sans-serif;
-  margin: 3;
-  font-family: Arial;
+  
+  font-style: normal;
+   
 
    
      }
@@ -183,6 +184,6 @@ body {
   
     margin-top: 13%;
     font-size: 50px;
-    text-shadow:rgba(16, 139, 11, 0.815) 0 12px 15px;
+   
   
   }

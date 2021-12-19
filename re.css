@@ -2,8 +2,8 @@ body {
   
     text-align: center;
   background-color:#0E0E0E;
-  font-family: semplicitapro,sans-serif;
-  font-weight: 700;
+  font-family: sans-serif;
+  
   font-style: normal;
    
      }
@@ -90,17 +90,27 @@ body {
   left: 0;
   height: 50px;
   }
-  footer{
-  width: 100%;
-  bottom: 0;
-  position: fixed;
-  display: block;
-  left: 0;
-  height: 50px;
-  font-size: 70%;
+
+
+
+  .git{
+
+    opacity: 0.8; 
   
+  align-items: center;
+
+  margin: 0 1%;
+      transition: 0.3s;
+  
+  
+  
+    
+    
   }
-
-
-
+  .git:hover{
+    opacity: 1;
+    opacity: 0,6;
+    box-shadow: 0 4px 8px 0 rgb(0, 255, 21),;
+  }
+  
   
